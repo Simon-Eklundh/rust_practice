@@ -1,3 +1,5 @@
+mod guessing_game_main;
+
 fn main() {
-    println!("Hello, world!");
+    guessing_game_main::start();
 }
