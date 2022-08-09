@@ -5,7 +5,13 @@ use std::cmp::Ordering;
 /**
     * A basic number guessing game
     */
-pub(crate) fn start() {
+
+pub(crate) fn start(){
+    program_loop();
+}
+
+
+fn program_loop() {
     println!("Guess the number!");
     let secret_number = rand::thread_rng().gen_range(1..=100);
 
