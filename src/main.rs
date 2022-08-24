@@ -1,4 +1,7 @@
-mod package1;
+mod lib;
+mod project1;
+
+use project1::guessing_game_main;
 use std::io;
 
 /**
@@ -20,12 +23,15 @@ fn main() {
             Err(_) => continue,
         };
         match selection {
-            1 => package1::guessing_game_main::start(),
-            2 => println!("Project 2"),
+            1 => guessing_game_main::start(),
+            2 => println!("Project2"),
             3 => println!("Project 3"),
             4 => break,
             _ => continue,
         }
     }
     println!("Thank you for using this program!");
+}
+pub fn test_function() -> i32 {
+    50
 }
