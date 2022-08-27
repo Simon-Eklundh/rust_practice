@@ -8,11 +8,15 @@
       <sourceFolder url="file://$MODULE_DIR$/src/project1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/tests/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/testtester/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/minigrep/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project2/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/pottt/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/project1/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/testtester/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/tests/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/project2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/minigrep/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
